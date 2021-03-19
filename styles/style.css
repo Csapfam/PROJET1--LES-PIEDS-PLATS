@@ -25,6 +25,7 @@ body{
     justify-content: space-around;
     /* align-content: space-around; */
     align-content: center;
+    align-items: ;
 }
 h1{
     font-size: 3em;
