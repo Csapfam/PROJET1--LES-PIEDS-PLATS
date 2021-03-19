@@ -2,7 +2,43 @@ body{
     font-size: 24px;
 }
 
+/*Header*/
+header
+ {
+     background-color: #7CCC6C;
 
+ }
+
+ #nom-assoc
+ {
+     font-size: 2em;
+ }
+
+#logo
+{
+    width: 100px;
+    height: 100px;
+
+}
+
+nav ul
+{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+    align-items:center;
+
+}
+
+nav ul li
+{
+    padding: 40px 40px 40px 40px;
+}
+
+
+
+
+/*le reste*/
 section{
     /*width: 50%;*/ 
     margin-left: 5%;
