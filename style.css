@@ -1,3 +1,7 @@
+body{
+    font-size: 24px;
+}
+
 section{
     /*width: 50%;*/ 
     margin-left: 5%;
@@ -20,12 +24,15 @@ img {
     flex-direction: column
   }
 
+.resumeBallade{
+    font-size: 1.2em;
+}
+
 
 .illustration {
     margin: 5%;
-
 }
 
-.resumeBallade{
-    font-size: 48px;
+p{
+    font-size: 1.5 em;
 }
