@@ -8,10 +8,28 @@ section{
     margin-right: 5%; 
 }
 
-.enTete{
+.enTete1{
     text-align: center;
     font-size: 48px;
     border:5px solid blue;
+}
+
+.enTete2{
+    text-align: center;
+    font-size: 48px;
+    border:5px solid orange;
+}
+
+.enTete3{
+    text-align: center;
+    font-size: 48px;
+    border:5px solid red;
+}
+
+.enTete4{
+    text-align: center;
+    font-size: 48px;
+    border:5px solid black;
 }
 
 img {
