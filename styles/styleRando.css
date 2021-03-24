@@ -26,6 +26,7 @@ nav ul
    display: flex;
    justify-content: space-around;
    align-items:center;
+   padding-inline-start: unset;
 }
 
 nav ul li
