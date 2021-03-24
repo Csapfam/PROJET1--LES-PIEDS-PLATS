@@ -1,11 +1,16 @@
 
+body /* TAILLE TEXTE LISIBLE */
+{
+    font-size: 18px;
+
+}
 
  #bloc_page
  {
      width: auto;
      margin: auto;
      background-color: #cee6b4;
-     
+    
  }
 
  header
@@ -19,7 +24,7 @@
      font-size: 1.5em;
  }
 
-#logo
+#logo 
 {
     width: 100px;
     height: 100px;
@@ -38,8 +43,8 @@ nav ul
 
 nav ul li
 {
-    padding: 40px 40px 40px 40px;
-}
+    padding: 40px 0px 40px 0px;
+} 
 
 #informations-contact
 {
