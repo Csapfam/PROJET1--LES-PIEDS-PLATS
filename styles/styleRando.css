@@ -22,22 +22,22 @@ header
 
 nav ul
 {
-    list-style: none;
-   display: flex;
-   justify-content: space-around;
-   align-items:center;
-   padding-inline-start: unset; /*désective les 40px de marge ul imposée par le navigateur*/
+    list-style: none; /*absence de puces*/
+    display: flex; /*présentation en une ligne*/
+    justify-content: space-around; /*équilibrage des espaces*/
+    align-items:center; /*alignement vertical*/
+    padding-inline-start: unset; /*désective les 40px de marge ul imposée par le navigateur*/
 }
 
 nav ul li
 {
-   padding: 40px 00px 40px 00px;
+   padding: 40px 00px 40px 00px; /*ajout marge haute et basse*/
 }
 
 
 /*le reste*/
 section{
-    margin-left: 5%;
+    margin-left: 5%; /*ajout marge D et G pour la présentation*/
     margin-right: 5%; 
 }
 
@@ -46,28 +46,33 @@ section{
     text-align: center;
     font-size: 2em;
     border:5px solid blue; /*entourage couleur de la difficulté*/
+    border-radius: 15px;  /*desicn is the key*/
 }
 
 .enTete2{
     text-align: center;
     font-size: 2em;
     border:5px solid orange;
+    border-radius: 15px; 
 }
 
 .enTete3{
     text-align: center;
     font-size: 2em;
     border:5px solid red;
+    border-radius: 15px; 
 }
 
 .enTete4{
     text-align: center;
     font-size: 2em;
     border:5px solid black;
+    border-radius: 15px; 
 }
 
+/*gestion image illustration*/
 img {
-    width: 60%; /*réduite pour une meilleure accroche visuelle*/
+    width: 80%; /*réduite pour une meilleure accroche visuelle*/
     display: block; /*Pour travailler en block */
     margin-left: auto; /*centrage auto à gauche*/
     margin-right: auto; /*centrage auto à droite*/
@@ -79,28 +84,31 @@ img {
   }
 }
 
-.container .text {
-    background: rgba(0, 0, 0, 0.8);
-    z-index: 1;
-    position: absolute;
-    text-align: center;
-    font-family: Georgia;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    top: 30%;
-    color: white;
-    width: 70%;
+
+
+.balladeEtResume{
+    display: flex; /*permet d'aligner les blocks*/
+    align-items: center;
 }
 
-  /*résumé ballade, texte expliquatif*/
+.illustration {
+    display: inline-block; /*accepte des blocs à ses cotés*/
+    margin: 0%; /*pas de marges*/
+    width: 650px; /*largeur*/
+}
+/*résumé ballade, texte expliquatif*/
+.resume{
+    display: inline-block;
+    align-self: center;
+    width: 300px;
+}
+
+/*liste en 3 points*/
 .resumeBallade{
     font-size: 1.2em;
 }
 
-.illustration {
-    margin: 5%;
-}
+
 
 p { /*lecture normale*/
     font-size: 1.0em;
@@ -118,7 +126,6 @@ p { /*lecture normale*/
     {
         width: 60px;
         height: 50px;
-    
     }
 
     p { /*Augmentation taille texte pour faciliter lecture*/
@@ -130,6 +137,27 @@ p { /*lecture normale*/
         display: block; 
         margin-left: auto; 
         margin-right: auto;
-
     }
+    
+    .balladeEtResume{
+        display: block;
+    }
+    
+    
+      /*résumé ballade, texte expliquatif*/
+    .resumeBallade{
+        font-size: 1.2em;
+    }
+    
+    .illustration {
+        width: unset; /*suppression width pour éviter le conflit*/
+        margin: 5%;
+    }
+
+    .resume{
+        display: block; /*retour au format block*/
+        width: unset; /*suppression width pour éviter le conflit*/
+    }
+
+
 }
