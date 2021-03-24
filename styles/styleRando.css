@@ -32,7 +32,7 @@ nav ul
 
 nav ul li
 {
-   padding: 40px 40px 40px 40px;
+   padding: 40px 00px 40px 00px;
 }
 
 
@@ -45,10 +45,11 @@ section{
     margin-right: 5%; 
 }
 
+/*en tête couleur différente suivant randonnée*/
 .enTete1{
     text-align: center;
     font-size: 2em;
-    border:5px solid blue;
+    border:5px solid blue; /*entourage couleur de la difficulté*/
 }
 
 .enTete2{
@@ -73,23 +74,43 @@ img {
    
     width: 60%; /*réduite pour une meilleure accroche visuelle*/
     display: block; /*Pour travailler en block */
-    margin-left: auto; /*centrage auto*/
-    margin-right: auto; /*centrage auto*/
+    margin-left: auto; /*centrage auto à gauche*/
+    margin-right: auto; /*centrage auto à droite*/
 }
 
 .container {
-    flex-direction: column
+    flex-direction: column /*en colonne*/
   }
 
+  /*résumé ballade, texte expliquatif*/
 .resumeBallade{
     font-size: 1.2em;
 }
-
 
 .illustration {
     margin: 5%;
 }
 
-p{
-    font-size: 1.5 em;
+p { /*lecture normale*/
+    font-size: 1.0em;
+}
+
+/*Media query*/
+@media screen and (max-width: 780px)
+{
+    #nom-assoc /*modification taille nom*/
+    {
+     font-size: 1.3em;
+    }
+
+    #logo /*modification taille logos*/
+    {
+        width: 60px;
+        height: 60px;
+    
+    }
+
+    p { /*Augmentation taille texte pour faciliter lecture*/
+        font-size: 1.2em;
+    }
 }
