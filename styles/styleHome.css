@@ -4,6 +4,7 @@ body {
 
 header {
     background-color: #7CCC6C;
+    border-radius: 15px;
 }
 
 #nom-assoc {
@@ -16,7 +17,8 @@ header {
 }
 
 nav ul {
-    padding-inline-start: unset; /* désactive les 40 px par défaut de la balise <ul> sur les navigateurs */
+    padding-inline-start: unset;
+    /* désactive les 40 px par défaut de la balise <ul> sur les navigateurs */
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -28,6 +30,7 @@ nav ul li {
 }
 
 .illustration {
+    display: inline;
     margin: 5%;
 }
 
@@ -43,7 +46,7 @@ p {
 }
 
 .container {
-    flex-direction: column/*en colonne*/
+    flex-direction: column
 }
 
 img {
@@ -59,25 +62,71 @@ img {
 
 /*Media query*/
 
+
+
+/* Encadre et positionne les images et textes */
+
+#parcoursFacile{
+    border: solid blue;
+    width: 70%;
+    border-radius: 15px;
+    float: left;
+    margin: 10px;
+}
+
+#parcoursMoyen{
+    border: solid orange;
+    width: 70%;
+    border-radius: 15px;
+    float:right;
+    margin: 10px;
+}
+
+#parcoursDifficile{
+    border: solid red;
+    width: 70%;
+    border-radius: 15px;
+    float:left;
+    margin: 10px;
+}
+
+#parcoursImpossible{
+    border: solid black;
+    width: 70%;
+    border-radius: 15px;
+    float:right;
+    margin: 10px;
+}
+#osez{
+    border: solid #7CCC6C;
+    border-radius: 15px;
+}
+
+
 @media screen and (max-width: 780px) {
     #nom-assoc/*modification taille nom*/
         {
         font-size: 1.3em;
     }
+    
     #logo/*modification taille logos*/
         {
         width: 60px;
         height: 50px;
+    }
+    .enTete{
+        font-size: 0.9em;
     }
     p {
         /*Augmentation taille texte pour faciliter lecture*/
         font-size: 1.2em;
     }
     img {
-        width: 100%;
+        width: 50%;
         /*annulation réduction pour une meilleure accroche visuelle*/
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
 }
+

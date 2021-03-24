@@ -7,6 +7,8 @@ body{
 header
 {
     background-color: #7CCC6C;
+    border-radius: 15px;
+
 }
 
 #nom-assoc
@@ -78,28 +80,26 @@ img {
     margin-right: auto; /*centrage auto à droite*/
 }
 
+/*Ensemble sous la difficulté*/ 
 .container {
     flex-direction: inline-block /*en colonne*/
-    /*flex-direction: column /*en colonne*/
   }
 }
-
-
-
+/*photo & résumé*/
 .balladeEtResume{
     display: flex; /*permet d'aligner les blocks*/
-    align-items: center;
+    /*align-items: flex-end;*/
 }
 
+/*la photo*/
 .illustration {
     display: inline-block; /*accepte des blocs à ses cotés*/
     margin: 0%; /*pas de marges*/
     width: 650px; /*largeur*/
 }
-/*résumé ballade, texte expliquatif*/
+/*résumé ballade, en 3 pts*/
 .resume{
     display: inline-block;
-    align-self: center;
     width: 300px;
 }
 
@@ -108,10 +108,16 @@ img {
     font-size: 1.2em;
 }
 
-
+h2{ /*centre le "Votre Parcours"*/
+    text-align: center;
+}
 
 p { /*lecture normale*/
     font-size: 1.0em;
+}
+
+#mordor{
+    text-align: center;
 }
 
 /*Media query*/
@@ -144,7 +150,7 @@ p { /*lecture normale*/
     }
     
     
-      /*résumé ballade, texte expliquatif*/
+    /*résumé ballade, texte expliquatif*/
     .resumeBallade{
         font-size: 1.2em;
     }
