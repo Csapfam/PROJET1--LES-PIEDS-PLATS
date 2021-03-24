@@ -16,6 +16,7 @@ header {
 }
 
 nav ul {
+    padding-inline-start: unset; /* désactive les 40 px par défaut de la balise <ul> sur les navigateurs */
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -23,7 +24,7 @@ nav ul {
 }
 
 nav ul li {
-    padding: 40px 0px 0px 0px;
+    padding: 40px 0px 40px 0px;
 }
 
 .illustration {
