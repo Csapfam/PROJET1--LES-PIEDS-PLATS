@@ -1,38 +1,38 @@
 body{
-    font-size: 24px;
+    font-size: 18px; /*Taille texte lisible*/
 }
 
 /*Header*/
 header
- {
-     background-color: #7CCC6C;
+{
+    background-color: #7CCC6C;
+}
 
- }
-
- #nom-assoc
- {
-     font-size: 2em;
- }
+#nom-assoc
+{
+    font-size: 1.5em;
+}
 
 #logo
 {
-    width: 100px;
-    height: 100px;
+   width: 100px;
+   height: 100px;
 
 }
 
+
 nav ul
 {
-	list-style: none;
-	display: flex;
-	justify-content: space-around;
-    align-items:center;
+   list-style: none;
+   display: flex;
+   justify-content: space-around;
+   align-items:center;
 
 }
 
 nav ul li
 {
-    padding: 40px 40px 40px 40px;
+   padding: 40px 40px 40px 40px;
 }
 
 
@@ -70,9 +70,11 @@ section{
 }
 
 img {
-    /*position: absolute;*/
-    width: 100%;
-    /*margin: 1% auto;*/
+   
+    width: 60%; /*réduite pour une meilleure accroche visuelle*/
+    display: block; /*Pour travailler en block */
+    margin-left: auto; /*centrage auto*/
+    margin-right: auto; /*centrage auto*/
 }
 
 .container {
