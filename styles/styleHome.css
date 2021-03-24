@@ -34,9 +34,24 @@ nav ul
 
 nav ul li
 {
-    padding: 0px 0px 0px 0px;
+    padding: 40px 0px 0px 0px;
+}
+
+.illustration {
+    margin: 5%;
 }
 
 P{
     margin: auto;
 }
+
+/* Mise en page des photos et titre  */
+.enTete{
+    text-align: center;
+    /* font-size: 2em; */
+    /* border:5px solid blue; */
+}
+
+.container {
+    flex-direction: column
+  }
