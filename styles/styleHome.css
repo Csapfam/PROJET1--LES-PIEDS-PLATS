@@ -41,7 +41,7 @@ nav ul li
     margin: 5%;
 }
 
-P{
+p{
     margin: auto;
 }
 
@@ -49,9 +49,37 @@ P{
 .enTete{
     text-align: center;
     /* font-size: 2em; */
-    /* border:5px solid blue; */
-}
+    
 
 .container {
     flex-direction: column
   }
+
+  img {
+   
+    width: 60%; /*réduite pour une meilleure accroche visuelle*/
+    display: block; /*Pour travailler en block */
+    margin-left: auto; /*centrage auto à gauche*/
+    margin-right: auto; /*centrage auto à droite*/
+}
+
+
+/*Media query*/
+@media screen and (max-width: 780px)
+{
+    #nom-assoc /*modification taille nom*/
+    {
+     font-size: 1.3em;
+    }
+
+    #logo /*modification taille logos*/
+    {
+        width: 60px;
+        height: 60px;
+    
+    }
+
+    p { /*Augmentation taille texte pour faciliter lecture*/
+        font-size: 1.2em;
+    }
+}
