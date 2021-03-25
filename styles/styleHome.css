@@ -2,12 +2,13 @@ body {
     font-size: 18px;
 }
 
+
 header {
     background-color: #7CCC6C;
     border-radius: 15px;
 }
 
-#nom-assoc {
+#nom-assoc, h1 .enTeteHome {           /* h1 : aJouté par Pascal le 24/03 */
     font-size: 1.5em;
 }
 
@@ -40,10 +41,40 @@ p {
 
 /* Mise en page des photos et titre  */
 
-.enTete {
+.enTeteHome {                         /* AJouté par Pascal le 24/03 */
+    text-align: center;
+    font-size: 2em; 
+    color: #536162;
+}
+
+.enTeteFacile {                      /* AJouté par Pascal le 24/03 */
     text-align: center;
     /* font-size: 2em; */
+    color: #2b2e4a;
 }
+
+.enTeteMoyen {                       /* AJouté par Pascal le 24/03 */
+    text-align: center;
+    /* font-size: 2em; */
+    color: #ffc93c;
+    
+    
+}
+
+.enTeteDifficile {                   /* AJouté par Pascal le 24/03 */
+    text-align: center;
+    /* font-size: 2em; */
+    color: #be0000;
+
+}
+
+.enTeteImpossible {                  /* AJouté par Pascal le 24/03 */
+    text-align: center;
+    /* font-size: 2em; */
+    color: #1b1717;
+    
+}
+
 
 .container {
     flex-direction: column
@@ -67,7 +98,7 @@ img {
 /* Encadre et positionne les images et textes */
 
 #parcoursFacile{
-    border: solid blue;
+    border: solid #2b2e4a;
     width: 70%;
     border-radius: 15px;
     float: left;
@@ -75,7 +106,7 @@ img {
 }
 
 #parcoursMoyen{
-    border: solid orange;
+    border: solid #ffc93c;
     width: 70%;
     border-radius: 15px;
     float:right;
@@ -83,7 +114,7 @@ img {
 }
 
 #parcoursDifficile{
-    border: solid red;
+    border: solid #be0000;
     width: 70%;
     border-radius: 15px;
     float:left;
@@ -91,17 +122,19 @@ img {
 }
 
 #parcoursImpossible{
-    border: solid black;
+    border: solid #1b1717;
     width: 70%;
     border-radius: 15px;
     float:right;
     margin: 10px;
 }
+
+/*
 #osez{
     border: solid #7CCC6C;
     border-radius: 15px;
 }
-
+*/
 
 @media screen and (max-width: 780px) {
     #nom-assoc/*modification taille nom*/
@@ -114,7 +147,7 @@ img {
         width: 60px;
         height: 50px;
     }
-    .enTete{
+    .enTeteHome, .enTeteFacile, .enTeteMoyen, .enTeteDifficile{      /* AJouté par Pascal le 24/03 */
         font-size: 0.9em;
     }
     p {
