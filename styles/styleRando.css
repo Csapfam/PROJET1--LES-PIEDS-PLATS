@@ -88,6 +88,7 @@ img {
 /*photo & résumé*/
 .balladeEtResume{
     display: flex; /*permet d'aligner les blocks*/
+    vertical-align: middle;
     /*align-items: flex-end;*/
 }
 
@@ -116,8 +117,9 @@ p { /*lecture normale*/
     font-size: 1.0em;
 }
 
-#mordor{
+h3{
     text-align: center;
+    text:
 }
 
 /*Media query*/

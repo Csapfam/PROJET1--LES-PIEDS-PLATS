@@ -1,8 +1,12 @@
 body {
-    font-size: 18px;
+    font-size: 18px; /* Taille de la police pour la page */
 }
 
+<<<<<<< HEAD
 
+=======
+/* Css de l'entete */
+>>>>>>> 663e82a0e53183d7a1f9ee472ba7a95c34c732ee
 header {
     background-color: #7CCC6C;
     border-radius: 15px;
@@ -91,11 +95,6 @@ img {
     /*centrage auto à droite*/
 }
 
-/*Media query*/
-
-
-
-/* Encadre et positionne les images et textes */
 
 #parcoursFacile{
     border: solid #2b2e4a;
