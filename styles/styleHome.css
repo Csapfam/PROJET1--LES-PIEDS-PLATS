@@ -1,27 +1,28 @@
-body {
+body 
+{
     font-size: 18px; /* Taille de la police pour la page */
 }
 
-<<<<<<< HEAD
-
-=======
 /* Css de l'entete */
->>>>>>> 663e82a0e53183d7a1f9ee472ba7a95c34c732ee
-header {
+header 
+{
     background-color: #7CCC6C;
     border-radius: 15px;
 }
 
-#nom-assoc, h1 .enTeteHome {           /* h1 : aJouté par Pascal le 24/03 */
+#nom-assoc, h1 .enTeteHome 
+{           /* h1 : aJouté par Pascal le 24/03 */
     font-size: 1.5em;
 }
 
-#logo {
+#logo 
+{
     width: 100px;
     height: 100px;
 }
 
-nav ul {
+nav ul 
+{
     padding-inline-start: unset;
     /* désactive les 40 px par défaut de la balise <ul> sur les navigateurs */
     list-style: none;
@@ -30,34 +31,40 @@ nav ul {
     align-items: center;
 }
 
-nav ul li {
+nav ul li 
+{
     padding: 40px 0px 40px 0px;
 }
 
-.illustration {
+.illustration 
+{
     display: inline;
     margin: 5%;
 }
 
-p {
+p 
+{
     margin: auto;
 }
 
 /* Mise en page des photos et titre  */
 
-.enTeteHome {                         /* AJouté par Pascal le 24/03 */
+.enTeteHome 
+{                         /* AJouté par Pascal le 24/03 */
     text-align: center;
     font-size: 2em; 
     color: #536162;
 }
 
-.enTeteFacile {                      /* AJouté par Pascal le 24/03 */
+.enTeteFacile 
+{                      /* AJouté par Pascal le 24/03 */
     text-align: center;
     /* font-size: 2em; */
     color: #2b2e4a;
 }
 
-.enTeteMoyen {                       /* AJouté par Pascal le 24/03 */
+.enTeteMoyen 
+{                       /* AJouté par Pascal le 24/03 */
     text-align: center;
     /* font-size: 2em; */
     color: #ffc93c;
@@ -65,14 +72,16 @@ p {
     
 }
 
-.enTeteDifficile {                   /* AJouté par Pascal le 24/03 */
+.enTeteDifficile 
+{                   /* AJouté par Pascal le 24/03 */
     text-align: center;
     /* font-size: 2em; */
     color: #be0000;
 
 }
 
-.enTeteImpossible {                  /* AJouté par Pascal le 24/03 */
+.enTeteImpossible 
+{                  /* AJouté par Pascal le 24/03 */
     text-align: center;
     /* font-size: 2em; */
     color: #1b1717;
@@ -80,11 +89,13 @@ p {
 }
 
 
-.container {
+.container 
+{
     flex-direction: column
 }
 
-img {
+img 
+{
     width: 60%;
     /*réduite pour une meilleure accroche visuelle*/
     display: block;
@@ -96,7 +107,8 @@ img {
 }
 
 
-#parcoursFacile{
+#parcoursFacile
+{
     border: solid #2b2e4a;
     width: 70%;
     border-radius: 15px;
@@ -104,7 +116,8 @@ img {
     margin: 10px;
 }
 
-#parcoursMoyen{
+#parcoursMoyen
+{
     border: solid #ffc93c;
     width: 70%;
     border-radius: 15px;
@@ -112,7 +125,8 @@ img {
     margin: 10px;
 }
 
-#parcoursDifficile{
+#parcoursDifficile
+{
     border: solid #be0000;
     width: 70%;
     border-radius: 15px;
@@ -120,7 +134,8 @@ img {
     margin: 10px;
 }
 
-#parcoursImpossible{
+#parcoursImpossible
+{
     border: solid #1b1717;
     width: 70%;
     border-radius: 15px;
@@ -128,14 +143,10 @@ img {
     margin: 10px;
 }
 
-/*
-#osez{
-    border: solid #7CCC6C;
-    border-radius: 15px;
-}
-*/
 
-@media screen and (max-width: 780px) {
+
+@media screen and (max-width: 780px) 
+{
     #nom-assoc/*modification taille nom*/
         {
         font-size: 1.3em;
