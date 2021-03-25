@@ -81,14 +81,15 @@ img {
 }
 
 /*Ensemble sous la difficulté*/ 
+
 .container {
-    flex-direction: inline-block /*en colonne*/
-  }
+    flex-direction: column; /*en colonne*/
 }
+
 /*photo & résumé*/
 .balladeEtResume{
     display: flex; /*permet d'aligner les blocks*/
-    vertical-align: middle;
+    align-items: center;
     /*align-items: flex-end;*/
 }
 
@@ -119,7 +120,7 @@ p { /*lecture normale*/
 
 h3{
     text-align: center;
-    text:
+    /*font-style: italic;*/
 }
 
 /*Media query*/
