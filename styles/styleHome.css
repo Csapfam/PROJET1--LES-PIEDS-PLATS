@@ -60,14 +60,14 @@ p
 {                      /* AJouté par Pascal le 24/03 */
     text-align: center;
     /* font-size: 2em; */
-    color: #2b2e4a;
+    color: blue;
 }
 
 .enTeteMoyen 
 {                       /* AJouté par Pascal le 24/03 */
     text-align: center;
     /* font-size: 2em; */
-    color: #ffc93c;
+    color: orange;
     
     
 }
@@ -76,7 +76,7 @@ p
 {                   /* AJouté par Pascal le 24/03 */
     text-align: center;
     /* font-size: 2em; */
-    color: #be0000;
+    color: red;
 
 }
 
@@ -84,7 +84,7 @@ p
 {                  /* AJouté par Pascal le 24/03 */
     text-align: center;
     /* font-size: 2em; */
-    color: #1b1717;
+    color: black;
     
 }
 
@@ -109,7 +109,7 @@ img
 
 #parcoursFacile
 {
-    border: solid #2b2e4a;
+    border: solid blue;
     width: 70%;
     border-radius: 15px;
     float: left;
@@ -118,7 +118,7 @@ img
 
 #parcoursMoyen
 {
-    border: solid #ffc93c;
+    border: solid orange;
     width: 70%;
     border-radius: 15px;
     float:right;
@@ -127,7 +127,7 @@ img
 
 #parcoursDifficile
 {
-    border: solid #be0000;
+    border: solid red;
     width: 70%;
     border-radius: 15px;
     float:left;
@@ -136,7 +136,7 @@ img
 
 #parcoursImpossible
 {
-    border: solid #1b1717;
+    border: solid black;
     width: 70%;
     border-radius: 15px;
     float:right;
